@@ -1,0 +1,35 @@
+{
+    "private":         true,
+    "scripts":         {
+        "start":   "node index.js",
+        "build":   "gulp --gulpfile build/gulp.js",
+        "clean":   "gulp --gulpfile build/gulp.js clean",
+        "html":    "gulp --gulpfile build/gulp.js html",
+        "lint":    "gulp --gulpfile build/gulp.js lint",
+        "server":  "webpack-dev-server --config build/webpack.js --content-base dist/ --hot --progress --colors",
+        "watch":   "webpack --config build/webpack.js --progress --colors --watch",
+        "webpack": "webpack --config build/webpack.js --progress --colors"
+    },
+    "dependencies":    {
+        "react": "latest"
+    },
+    "devDependencies": {
+        "babel-core":          "latest",
+        "babel-eslint":        "latest",
+        "babel-loader":        "latest",
+        "babel-runtime":       "latest",
+        "eslint":              "latest",
+        "eslint-plugin-react": "latest",
+        "gulp":                "latest",
+        "gulp-clean":          "latest",
+        "gulp-eslint":         "latest",
+        "gulp-replace":        "latest",
+        "gulp-sequence":       "latest",
+        "gulp-uglify":         "latest",
+        "gulp-webpack-build":  "latest",
+        "open":                "latest",
+        "react-hot-loader":    "latest",
+        "webpack":             "latest",
+        "webpack-dev-server":  "latest"
+    }
+}

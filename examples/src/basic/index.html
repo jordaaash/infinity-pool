@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Examples | Basic</title>
+        <script charset="utf-8" src="index.js"></script>
+        <style type="text/css">
+            .infinite-list {
+                list-style: none;
+            }
+
+            .infinite-list-item {
+            }
+
+            .infinite-list-transition-enter {
+                opacity: 0.01;
+                transition: opacity .5s ease-in;
+            }
+
+            .infinite-list-transition-enter.infinite-list-transition-enter-active {
+                opacity: 1;
+            }
+
+            .ifinite-list-transition-leave {
+                opacity: 1;
+                transition: opacity .5s ease-in;
+            }
+
+            .ifinite-list-transition-leave.ifinite-list-transition-leave-active {
+                opacity: 0.01;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="body"></div>
+    </body>
+</html>

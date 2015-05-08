@@ -1,0 +1,36 @@
+{
+    "name":            "infinity-pool",
+    "version":         "0.0.1",
+    "description":     "React infinite list (WIP)",
+    "author":          "Jordan Sexton <jordan@jordansexton.com>",
+    "contributors":    [
+        {
+            "name":  "Jordan Sexton",
+            "email": "jordan@jordansexton.com"
+        }
+    ],
+    "main":            "index.js",
+    "scripts":         {
+        "build":    "gulp --gulpfile build/gulp.js",
+        "clean":    "gulp --gulpfile build/gulp.js clean",
+        "compress": "gulp --gulpfile build/gulp.js compress",
+        "lint":     "gulp --gulpfile build/gulp.js lint",
+        "watch":    "webpack --config build/webpack.js --progress --colors --watch",
+        "webpack":  "webpack --config build/webpack.js --progress --colors"
+    },
+    "dependencies":    {
+        "react": "latest"
+    },
+    "devDependencies": {
+        "eslint":              "latest",
+        "eslint-plugin-react": "latest",
+        "gulp":                "latest",
+        "gulp-clean":          "latest",
+        "gulp-eslint":         "latest",
+        "gulp-replace":        "latest",
+        "gulp-sequence":       "latest",
+        "gulp-uglify":         "latest",
+        "gulp-webpack-build":  "latest",
+        "webpack":             "latest"
+    }
+}

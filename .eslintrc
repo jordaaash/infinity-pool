@@ -1,0 +1,35 @@
+{
+    "env":     {
+        "browser": 1,
+        "node":    1
+    },
+    "globals": {
+    },
+    "parser":  "babel-eslint",
+    "plugins": [ "react" ],
+    "rules":   {
+        "camelcase":                     0,
+        "comma-spacing":                 0,
+        "key-spacing":                   0,
+        "new-cap":                       0,
+        "new-parens":                    0,
+        "no-alert":                      0,
+        "no-empty":                      0,
+        "no-mixed-requires":             0,
+        "no-multi-spaces":               0,
+        "no-new-func":                   0,
+        "no-shadow":                     0,
+        "no-undef":                      0,
+        "no-underscore-dangle":          0,
+        "no-unused-vars":                [ 2, { "vars": "all", "args": "none" } ],
+        "no-wrap-func":                  0,
+        "quotes":                        0,
+        "react/no-did-mount-set-state":  1,
+        "react/no-did-update-set-state": 1,
+        "react/no-multi-comp":           1,
+        "react/no-unknown-property":     1,
+        "react/prop-types":              0,
+        "react/self-closing-comp":       1,
+        "react/wrap-multilines":         1
+    }
+}
